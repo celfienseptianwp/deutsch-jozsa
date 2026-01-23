@@ -8,3 +8,10 @@ The Deutsch–Jozsa Algorithm is designed to determine whether a Boolean functio
 
 ## $\text{Methodology}$
 The Deutsch–Jozsa algorithm exploits quantum superposition and interference to evaluate a global property of a Boolean function. By encoding function values as phase information and applying Hadamard transformations, the algorithm deterministically distinguishes constant and balanced functions with a single oracle query.
+
+## $\text{Result}$
+The output of the Deutsch–Jozsa algorithm is obtained through a measurement of the qubit register after the entire quantum circuit has been executed. This measurement is not intended to reveal the explicit values of the function, but rather to identify its global property.
+
+If the measurement result corresponds to the state |00...0>, it can be concluded that the function under consideration is constant. Conversely, if the measurement result differs from |00...0>, meaning that at least one qubit is measured in the state 1, then the function is balanced.
+
+This distinction is made possible by the phenomenon of quantum interference, where probability amplitudes of certain quantum states can either reinforce or cancel each other. For constant functions, quantum interference amplifies the amplitude of the |00...0> state, whereas for balanced functions, the interference eliminates the amplitude of this state. As a result, the Deutsch–Jozsa algorithm can determine the nature of the function with only a single function evaluation, demonstrating the advantage of quantum computation over classical approaches.
