@@ -12,15 +12,41 @@ This implementation constructs the algorithm from scratch using quantum gates, p
 ## $\text{Installation}$
 Clone repository with `git clone https://github.com/celfienseptianwp/deutsch-jozsa.git` and use `pip install -r requirements.txt` in terminal to install dependencies.
 
-## $\text{Method}$
-```python
-from qiskit import 
-```
+## $\text{Success Indicators}$
+The algorithm is successful if the final measurement yields the state `|0...0⟩` for a constant function, and any non-zero state for a balanced function.
 
 ## $\text{Result}$
+<p align="center">
+  <img src="assets/balanced.png" width="275">
+  <img src="assets/constant.png" width="275">
+</p>
+
+Based on the research that has been conducted, the following results were obtained:
+| Oracle | Measurement | Probability |
+|--------|-------------|-------------|
+| Constant | `000` | 1 |
+| Balanced | `111` | 1 |
+
+Therefore, this study has satisfied the success indicator.
 
 ## $\text{File Structure}$
+```text
+├── _pycache_/
+├── assets/
+│   ├── balanced.png
+│   └── constant.png
+├── quantum_algorithms.py
+├── README.md
+├── requirements.txt
+└── validation.ipynb
+```
 
 ## $\text{References}$
+Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information (10th Anniversary ed.). Cambridge University Press.
 
 ## $\text{Licence}$
+This project uses the MIT License.
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
