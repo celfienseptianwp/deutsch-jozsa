@@ -44,9 +44,7 @@ Therefore, this study has satisfied the success indicator.
 ## $\text{References}$
 Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information (10th Anniversary ed.). Cambridge University Press.
 
-## $\text{Licence}$
-This project uses the MIT License.
-
-![Python](https://img.shields.io/badge/python-3.10-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.14-blue)
+![License](https://img.shields.io/github/license/user/repo)
+![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-purple)
 
