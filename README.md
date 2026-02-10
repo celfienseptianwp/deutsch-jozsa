@@ -1,5 +1,8 @@
 # $\text{Deutsch-Jozsa Algorithm}$
 
+![Python](https://img.shields.io/badge/python-3.14-blue)
+![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-purple)
+
 The **Deutsch–Jozsa algorithm** is one of the earliest quantum algorithms demonstrating a clear advantage over classical computation. It determines whether a given Boolean function is constant (producing the same output for all inputs) or balanced (producing equal numbers of 0s and 1s) using only one evaluation of the quantum oracle, whereas a classical algorithm may require exponentially many evaluations in the worst case.
 
 ## $\text{Purpose}$
@@ -43,8 +46,3 @@ Therefore, this study has satisfied the success indicator.
 
 ## $\text{References}$
 Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information (10th Anniversary ed.). Cambridge University Press.
-
-![Python](https://img.shields.io/badge/python-3.14-blue)
-![License](https://img.shields.io/github/license/user/repo)
-![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-purple)
-
