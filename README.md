@@ -17,8 +17,8 @@ The algorithm is successful if the final measurement yields the state `|0...0⟩
 
 ## $\text{Result}$
 <p align="center">
-  <img src="assets/balanced.png" width="275">
-  <img src="assets/constant.png" width="275">
+  <img src="assets/balanced.png" width="310">
+  <img src="assets/constant.png" width="310">
 </p>
 
 Based on the research that has been conducted, the following results were obtained:
